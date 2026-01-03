@@ -1,41 +1,51 @@
 # Simple Monitoring Dashboard – Hands-On Project 6
 
-## 📌 Project Overview
-This project focuses on setting up **basic system monitoring** using **Netdata**, a real-time performance and health monitoring tool for Linux systems.
+## 🚀 Project Overview
 
-It helps build a strong foundation in **monitoring, observability, and DevOps automation**.
-
----
-
-## 🧠 Skills Covered
-- Linux
-- Monitoring
-- Netdata
-- DevOps Fundamentals
-- Automation (Shell Scripting)
-- Beginner System Observability
+This project helps you understand monitoring fundamentals by installing and configuring Netdata, a powerful real-time monitoring tool for Linux systems.
+You will monitor CPU, memory, disk, and network usage, configure alerts, and automate setup, testing, and cleanup using shell scripts.
 
 ---
 
-## 🎯 Project Goal
-- Install and configure Netdata
-- Monitor CPU, memory, disk, and network metrics
-- Access a real-time monitoring dashboard
-- Configure a custom alert
-- Automate setup, testing, and cleanup
+# 🎯 Goal: Learn how monitoring fits into DevOps workflows and how automation simplifies observability setup.
+
+## 🧠 What You’ll Learn
+
+- Linux system monitoring fundamentals
+
+- Real-time performance visualization
+
+- Alert configuration using Netdata health checks
+
+- Shell scripting for DevOps automation
+
+- Introductory observability concepts
 
 ---
+## 🛠️ Tech Stack
 
-## 🛠 Requirements
-- Linux system (Ubuntu preferred)
-- sudo privileges
-- Port 19999 open for Netdata dashboard
+- OS: Ubuntu 20.04 / 22.04
+- Monitoring Tool: Netdata
+- Scripting: Bash
+- Concepts: DevOps, Monitoring, Automation
 
----
+## 📋 Project Requirements
 
-## 🚫 Important Security Note
-❗ Do NOT expose Netdata publicly without authentication in production.
+This project covers the following requirements:
 
-This project is for learning and practice purposes.
+✅ Install Netdata on a Linux system
 
----
+✅ Monitor CPU, memory, disk, and network metrics
+
+✅ Access the Netdata dashboard via a web browser
+
+✅ Customize monitoring using a CPU alert
+
+✅ Trigger alerts under real system load
+
+✅ Automate setup, testing, and cleanup
+
+## ⚠️ Security Note
+
+❗ Do NOT expose Netdata publicly without authentication in production environments.
+This project is intended for learning purposes only.
